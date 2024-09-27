@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import './style.css';
 
 function ToDoList({text, updateToDo, removeToDo}) {
     const [isComplete, setIsComplete] = useState(false);
@@ -39,9 +39,6 @@ function ToDoList({text, updateToDo, removeToDo}) {
             <button onClick={removeToDo} disabled={isComplete || isEditing}>Delete</button>
           </>
         )}
-        <div className='parent'>
-        <img className='footsie' src='/public/foot.png'></img>
-      </div>
 
       </li>
 

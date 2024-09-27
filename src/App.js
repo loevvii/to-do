@@ -1,4 +1,4 @@
-import './App.css';
+import './components/style.css';
 import React, { useState } from 'react';
 import ToDoList from './components/todolist.js'; 
 
@@ -37,7 +37,7 @@ function App() {
 
       <div className="toDo-input"> {/*Task list*/}
         <div className="toDo-input-content">
-          <h1 className="toDo-title">Add To Do:</h1>
+          <h1 className="toDo-title">To Do:</h1>
           <input
             type="text"
             value={newToDo}
@@ -51,7 +51,7 @@ function App() {
       <div className="toDo-list"> {/*Task input*/}
         <h1>To Do:</h1>
         {toDos.length === 0 ? (
-          <p>No to-dos available. Add one and get started!</p>
+          <p>No to-dos available!</p>
         ) : (
           <ul>
             {toDos.map((toDo, taskIndex) => (
@@ -65,7 +65,6 @@ function App() {
           </ul>
         )}
       </div>
-      
     </div>
   );
 }
