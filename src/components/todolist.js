@@ -36,7 +36,7 @@ function ToDoList({text, updateToDo, removeToDo}) {
             </button>
 
             <button onClick={() => setIsEditing(!isEditing)} disabled={isComplete}>Edit</button>
-            <button onClick={removeToDo} disabled={isComplete || isEditing}>Delete</button>
+            <button onClick={removeToDo}>Delete</button>
           </>
         )}
 
