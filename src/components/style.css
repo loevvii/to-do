@@ -59,7 +59,6 @@
   .toDo-input input[type=text]:focus {
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-    box-shadow: -1px 1px #8ed7ca, -2px 2px #d3d78e;
   }
   
   button {
