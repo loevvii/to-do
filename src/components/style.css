@@ -26,7 +26,7 @@
     background-color:#181717;
     position: absolute;
     left: 0; 
-    box-shadow: 5px 0 5px #25201add;
+    box-shadow: 5px 0 5px #181717;
   }
   
   .toDo-input-content {
@@ -52,25 +52,24 @@
     background-color: #F4EDDB;
     box-shadow: -4px 4px yellowgreen, -6px 6px greenyellow;
     margin-bottom: 20px;
+    border-radius: 50px;
+    font-family: ingpin;
   }
   
   .toDo-input input[type=text]:focus {
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
-    box-shadow: -1px 1px #8ed7ca, -2px 2px #d3d78e;
   }
   
   button {
     padding: 10px 25px;
     font-size: 1rem;
     color: white;
-    background-color: #F5A62F;
+    background-color: #d8fa00;
+    font-family: ingpin;
+    color: #181717;
     border: none;
     cursor: pointer;
-  }
-  
-  button:hover {
-    background-color:#fab856;
   }
   
   .toDo-input button {
@@ -100,7 +99,7 @@
   .toDo-list h1 {
     font-size: 1.5rem;
     font-family: ingpin;
-    color: black;
+    color: #181717;
   }
   
   ul {
@@ -110,7 +109,7 @@
   .toDo-items {
     width: 30rem;
     height: auto;
-    background-color: #F4EDDB;   
+    background-color: #181717;   
     padding: 15px;            
     margin: 10px 0;                
     display: flex;               
@@ -134,13 +133,13 @@
     font-size: 1.3rem;
     margin: 10px;
     height: auto;
-    color: #181717;
+    color: whitesmoke;
   }
   
   li {
     border: 3px solid transparent;
     list-style: none;
-    box-shadow: 4px 5px 0 5px black;
+    padding-bottom: 2rem;
   }
   
   li:hover {
@@ -163,25 +162,21 @@
   }
   
   .toDo-items button:first-of-type {
-    background-color: #77B9AD;
+    background-color: #d8fa00;
+    font-family: ingpin;
+    color: #181717;
   }
   
-  .toDo-items button:first-of-type:hover {
-    background-color: #a5e3d8;
-  }
-  
+
   .toDo-items button:last-of-type {
-    background-color: #A13221;
+    background-color: #d8fa00;
+    font-family: ingpin;
+    color: #181717;
   }
-  
-  .toDo-items button:last-of-type:hover {
-    background-color: rgb(230, 60, 77);
-  }
-  
   
   /* No to-dos message */
   .toDo-list p {
     text-align: center;
     font-size: 1.2rem;
-    color: #888;
+    color: black;
   }
