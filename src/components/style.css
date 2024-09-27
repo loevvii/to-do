@@ -1,0 +1,22 @@
+.to-do-list{
+    color: whitesmoke;
+    text-align: left !important;
+    margin-top: 100px;
+    font-family: 'ingpin';
+}
+
+h1{
+    font-size: xx-large;
+    font-family: 'ingpin';
+}
+
+button{
+    font-family: 'ingpin';
+}
+
+@font-face {
+    font-family: 'ingpin';
+    src: local('ingpin'), url(./fonts/ingpin.ttf) format('ttf');
+
+  }
+
